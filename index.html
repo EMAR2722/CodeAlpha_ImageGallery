@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Memories | Image Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 🔥 Header & Navigation -->
+    <header class="glass-header">
+        <h1>My Memories</h1>
+        <p class="subtitle">A visual journey through life's best moments</p>
+        
+        <nav class="filters" aria-label="Gallery Filters">
+            <button class="filter-btn active" data-filter="all">All Memories</button>
+            <button class="filter-btn" data-filter="childhood">Childhood</button>
+            <button class="filter-btn" data-filter="wedding">My Wedding</button>
+            <button class="filter-btn" data-filter="graduation">Graduation</button>
+            <button class="filter-btn" data-filter="family">My Family</button>
+            <button class="filter-btn" data-filter="nature">Nature</button>
+        </nav>
+    </header>
+
+    <!-- 📸 Gallery Section -->
+    <main class="gallery-container">
+        <section class="gallery" id="gallery">
+
+            <!-- Child -->
+            <h2 class="category-title" data-category="childhood">Childhood Memories</h2>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child2.jpg" alt="Curious Eyes" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Curious Eyes</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child3.jpg" alt="Growing Up Fast" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Growing Up Fast</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child4.jpg" alt="Carefree Days" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Carefree Days</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child5.jpg" alt="Sandbox Adventures" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Sandbox Adventures</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child6.jpg" alt="Innocence" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Innocence</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child7.jpg" alt="Sweet Smiles" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Sweet Smiles</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child8.jpg" alt="A World of Wonder" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">A World of Wonder</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child9.jpg" alt="Playtime Fun" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Playtime Fun</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child10.jpg" alt="Pure Joy" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Pure Joy</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child11.jpg" alt="Little Explorer" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Little Explorer</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="childhood">
+                <img src="images/child12.jpg" alt="Lost in Imagination" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Lost in Imagination</span>
+                </div>
+            </div>
+
+            <!-- Weeding -->
+            <h2 class="category-title" data-category="wedding">My Wedding</h2>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding1.jpg" alt="Walking Down the Aisle" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Walking Down the Aisle</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding2.jpg" alt="Rings Exchanged" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Rings Exchanged</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding3.jpg" alt="Tears of Joy" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Tears of Joy</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding4.jpg" alt="To Have and to Hold" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">To Have and to Hold</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding5.jpg" alt="Happily Ever After" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Happily Ever After</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding6.jpg" alt="Family Blessing" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Family Blessing</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding7.jpg" alt="Everlasting Love" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Everlasting Love</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding8.jpg" alt="Vows & Promises" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Vows & Promises</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding9.jpg" alt="A Toast to Love" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">A Toast to Love</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding10.jpg" alt="Tying the Knot" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Tying the Knot</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding11.jpg" alt="First Dance" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">First Dance</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding12.jpg" alt="Handsome Groom" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Handsome Groom</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding13.jpg" alt="The Big Day" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">The Big Day</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding14.jpg" alt="A Perfect Moment" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">A Perfect Moment</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="wedding">
+                <img src="images/weeding15.jpg" alt="Beautiful Bride" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Beautiful Bride</span>
+                </div>
+            </div>
+
+            <!-- Grad -->
+            <h2 class="category-title" data-category="graduation">Graduation</h2>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad1.jpg" alt="Celebration Time" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Celebration Time</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad2.jpg" alt="Graduation Day" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Graduation Day</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad3.jpg" alt="Diploma in Hand" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Diploma in Hand</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad4.jpg" alt="The Next Adventure" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">The Next Adventure</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad5.jpg" alt="Making History" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Making History</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad6.jpg" alt="Success Story" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Success Story</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad7.jpg" alt="Proud Moment" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Proud Moment</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad8.jpg" alt="Hard Work Pays Off" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Hard Work Pays Off</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad9.jpg" alt="Future is Bright" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Future is Bright</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad10.jpg" alt="Class of the Year" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Class of the Year</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad11.jpg" alt="Degree Earned" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Degree Earned</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad12.jpg" alt="Moving Forward" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Moving Forward</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad13.jpg" alt="Caps in the Air" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Caps in the Air</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad14.jpg" alt="A New Chapter" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">A New Chapter</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="graduation">
+                <img src="images/grad15.jpg" alt="Academic Journey" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Academic Journey</span>
+                </div>
+            </div>
+
+            <!-- Fam -->
+            <h2 class="category-title" data-category="family">My Family</h2>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam1.jpg" alt="Holiday Cheer" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Holiday Cheer</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam2.jpg" alt="Brothers & Sisters" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Brothers & Sisters</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam3.jpg" alt="Love and Laughter" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Love and Laughter</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam4.jpg" alt="Generations" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Generations</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam5.jpg" alt="Home is Here" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Home is Here</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam6.jpg" alt="Our Legacy" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Our Legacy</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam7.jpg" alt="Smiling Faces" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Smiling Faces</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam8.jpg" alt="The Heart of the Home" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">The Heart of the Home</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam9.jpg" alt="Quality Time" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Quality Time</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam10.jpg" alt="Unbreakable Bonds" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Unbreakable Bonds</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam11.jpg" alt="Togetherness" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Togetherness</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam12.jpg" alt="A Hug to Remember" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">A Hug to Remember</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam13.jpg" alt="Warm Embraces" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Warm Embraces</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam14.jpg" alt="Sunday Gatherings" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Sunday Gatherings</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam16.jpg" alt="Parents Love" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Parents Love</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="family">
+                <img src="images/fam17.jpg" alt="Family First" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Family First</span>
+                </div>
+            </div>
+
+            <!-- Nature -->
+            <h2 class="category-title" data-category="nature">Nature</h2>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature1.jpg" alt="Lost in the Woods" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Lost in the Woods</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature2.jpg" alt="Exploring the Outdoors" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Exploring the Outdoors</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature3.jpg" alt="Golden Hour" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Golden Hour</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature4.jpg" alt="Sunrise Glory" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Sunrise Glory</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature5.jpg" alt="Green Canopy" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Green Canopy</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature6.jpg" alt="Serene Trails" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Serene Trails</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature7.jpg" alt="Ocean Breeze" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Ocean Breeze</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature8.jpg" alt="Tranquil Landscapes" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Tranquil Landscapes</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature9.jpg" alt="Natural Beauty" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Natural Beauty</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature10.jpg" alt="Mountain Views" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Mountain Views</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature11.jpg" alt="Forest Whispers" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Forest Whispers</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature12.jpg" alt="River Flow" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">River Flow</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature13.jpg" alt="Breath of Fresh Air" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Breath of Fresh Air</span>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="nature">
+                <img src="images/nature14.jpg" alt="Into the Wild" loading="lazy">
+                <div class="overlay">
+                    <span class="caption">Into the Wild</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 🔍 Lightbox Modal -->
+    <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+        <div class="lightbox-backdrop"></div>
+        <button class="close" aria-label="Close Lightbox">&times;</button>
+        
+        <div class="lightbox-content">
+            <button class="nav-btn prev" aria-label="Previous Image">&#10094;</button>
+            <div class="lightbox-img-wrapper">
+                <img class="lightbox-img" id="lightbox-img" alt="Enlarged view">
+                <div class="lightbox-info">
+                    <span class="lightbox-caption" id="lightbox-caption"></span>
+                    <span class="lightbox-counter" id="lightbox-counter"></span>
+                </div>
+            </div>
+            <button class="nav-btn next" aria-label="Next Image">&#10095;</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
